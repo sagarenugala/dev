@@ -13,10 +13,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         
-        <sonar.host.url>http://3.91.50.220:9000</sonar.host.url>
-        <sonar.organization>'sonarqube ci'</sonar.organization>
-        <sonar.projectKey>sonarqube-ci</sonar.projectKey>
-        <sonar.login>sqp_e4df382ae82e49211d67391e0d7836c1d9586f4a</sonar.login>
+        <sonar.host.url>http://50.16.118.5:9000</sonar.host.url>
+        <sonar.organization>'sonar scanner'</sonar.organization>
+        <sonar.projectKey>sonar-scanner </sonar.projectKey>
+        <sonar.login>sqp_b55a484f5c430cfcd8e3b60de1b03288b678edea</sonar.login>
 
     </properties>
 
