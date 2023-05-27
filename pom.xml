@@ -28,9 +28,9 @@
         <url>http://3.86.116.208:8081/artifactory/libs-snapshot/</url>
     </snapshotRepository>
     <repository>
-        <id>central</id>
+        <id>releases</id>
         <name>jfrog.cloudbinary.io-releases</name>
-        <url>http://3.86.116.208:8081/artifactory/libs-release-local/</url>
+        <url>http://3.86.116.208:8081/artifactory/libs-release/</url>
     </repository>	
 </distributionManagement>
     
@@ -101,7 +101,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>ROOT</warName>
+                        <warName>*</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -124,6 +124,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>ROOT</finalName>
+        <finalName>*</finalName>
     </build>
 </project>
